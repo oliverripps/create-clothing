@@ -7,7 +7,7 @@ function Notes() {
     }])
 
     useEffect(() => {
-        fetch("/notes").then(res => {
+        fetch("/Orders").then(res => {
             if(res.ok) {
                 return res.json()
             }
